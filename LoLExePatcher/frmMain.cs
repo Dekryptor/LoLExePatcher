@@ -154,7 +154,7 @@ namespace LoLExePatcher
             {
                 if (PathCheck())
                 {
-                    string version = boxVersion.SelectedItem.ToString().Replace(" (最新版)", "");
+                    string version = boxVersion.SelectedItem.ToString().Replace("(最新版)", "").Replace("(請切換此版本)", "").Trim();
                     string filePath = DownloadPath + "\\" + version + "\\League of Legends.exe";
                     if (File.Exists(filePath))
                     {
