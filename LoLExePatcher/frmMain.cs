@@ -20,7 +20,6 @@ namespace LoLExePatcher
         public frmMain()
         {
             InitializeComponent();
-
             downloadExe.DownloadFileCompleted += new AsyncCompletedEventHandler(downloadExe_DownloadFileCompleted);
             downloadExe.DownloadProgressChanged += new DownloadProgressChangedEventHandler(downloadExe_DownloadProgressChanged);
         }
@@ -48,9 +47,17 @@ namespace LoLExePatcher
             {
                 foreach (var o in versionObj.versions)
                 {
-                    if (o.newest)
+                    if (o.newest && o.@switch)
+                    {
+                        boxVersion.Items.Add(o.version + " (最新版) (請切換此版本)");
+                    }
+                    else if (o.newest)
                     {
                         boxVersion.Items.Add(o.version + " (最新版)");
+                    }
+                    else if (o.@switch)
+                    {
+                        boxVersion.Items.Add(o.version + " (請切換此版本)");
                     }
                     else
                     {
@@ -80,18 +87,27 @@ namespace LoLExePatcher
             WebClient wc = new WebClient();
             try
             {
-                return JsonConvert.DeserializeObject<RootObject>(wc.DownloadString("http://nitroxenon.com/LoLExePatcher/versions.json"));
+                return JsonConvert.DeserializeObject<RootObject>(wc.DownloadString("https://raw.githubusercontent.com/NitroXenon/LoLExePatcher/master/versions.json"));
             }
-            catch { return null; }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                return null; 
+            }
         }
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
+            new frmAd().ShowDialog();
+
             if (!downloading)
             {
                 foreach (var o in VersionDict)
                 {
-                    if (o.Key == boxVersion.SelectedItem.ToString().Replace(" (最新版)", ""))
+                    if (boxVersion.SelectedIndex == -1)
+                        return;
+
+                    if (o.Key == boxVersion.SelectedItem.ToString().Replace("(最新版)", "").Replace("(請切換此版本)","").Trim())
                     {
                         string verDir = DownloadPath + "\\" + o.Key;
                         Directory.CreateDirectory(verDir);
