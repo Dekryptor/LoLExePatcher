@@ -3,97 +3,116 @@
         {
             "version": "5.7.0.275",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.7.0.275.exe",
-            "newest": true
+            "newest": true,
+            "switch": true
         },
         {
             "version": "5.6.0.190",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.6.0.190.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.5.0.280",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.5.0.280.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.5.0.278",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.5.0.278.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.4.0.244",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.4.0.244.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.4.0.241",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.4.0.241.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.3.0.302",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.3.0.302.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.3.0.291",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.3.0.291.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.3.0.288",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.3.0.288.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.2.0.203",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.2.0.203.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.2.0.193",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.2.0.193.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.1.0.417",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.1.0.417.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.21.0.398",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.21.0.398.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.21.0.397",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.21.0.397.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.21.0.392",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.21.0.392.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.21.0.390",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.21.0.390.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.20.0.323",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.20.0.323.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.20.0.315",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.20.0.315.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         },
         {
             "version": "4.20.0.135",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-4.20.0.135.exe",
-            "newest": false
+            "newest": false,
+            "switch": false
         }
     ]
 }
