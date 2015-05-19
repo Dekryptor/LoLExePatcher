@@ -15,8 +15,8 @@
         {
             "version": "5.8.0.461",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.8.0.461.exe",
-            "newest": true,
-            "switch": true
+            "newest": false,
+            "switch": false
         },
         {
             "version": "5.8.0.452",
