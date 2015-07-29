@@ -3,14 +3,14 @@
         {
             "version": "5.14.0.334",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.14.0.334.exe",
-            "newest": true,
-            "switch": false
+            "newest": false,
+            "switch": true
         },
         {
             "version": "5.14.0.329",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.14.0.329.exe",
             "newest": false,
-            "switch": true
+            "switch": false
         },
         {
             "version": "5.13.0.323",
