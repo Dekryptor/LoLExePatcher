@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "version": "5.16.0.341",
+            "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.16.0.341.exe",
+            "newest": false,
+            "switch": true
+        },
+        {
+            "version": "5.16.0.339",
+            "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.16.0.339.exe",
+            "newest": true,
+            "switch": false
+        },
+        {
             "version": "5.15.0.333",
             "link": "https://dl.dropboxusercontent.com/u/7084520/LoLEXE/League%20of%20Legends-5.15.0.333.exe",
             "newest": false,
